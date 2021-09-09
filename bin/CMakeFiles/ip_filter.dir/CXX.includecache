@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/siinthddev/CppProjects/LabsOtys/lab2/src/ip_filter.cpp
+ip_filter.h
+/home/siinthddev/CppProjects/LabsOtys/lab2/src/ip_filter.h
+
+/home/siinthddev/CppProjects/LabsOtys/lab2/src/ip_filter.h
+cassert
+-
+cstdlib
+-
+iostream
+-
+string
+-
+vector
+-
+fstream
+-
+algorithm
+-
+
+/home/siinthddev/CppProjects/LabsOtys/lab2/src/main.cpp
+ip_filter.h
+/home/siinthddev/CppProjects/LabsOtys/lab2/src/ip_filter.h
+
