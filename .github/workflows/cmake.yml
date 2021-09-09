@@ -3,18 +3,20 @@ name: 'C++ CI'
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v2
         with:
           submodules: true
-      - run: cmake .
-      - run: cmake --build .
-      - run: cmake --build . --target package
+      - name: Prepare environment
+        run: sudo apt-get update && sudo apt-get install libboost-test-dev -y
+      - name: Build and run tests
+        run: ./build.sh
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
@@ -32,6 +34,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./otus-1-2-0.0.${{ github.run_number }}-Linux.deb
-          asset_name: otus-1-2-0.0.${{ github.run_number }}-Linux.deb
+          asset_path: ./bin/ip_filter-1.0.0-Linux.deb
+          asset_name: ip_filter-Linux.deb
           asset_content_type: application/vnd.debian.binary-package
