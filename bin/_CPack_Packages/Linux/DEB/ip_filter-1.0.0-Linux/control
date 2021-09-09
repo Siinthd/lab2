@@ -1,9 +1,0 @@
-Architecture: amd64
-Description: ip_filter built using CMake
-Maintainer: Siinthd@protonmail.com
-Package: ip_filter
-Priority: optional
-Section: devel
-Version: 1.0.0
-Installed-Size: 105
-
