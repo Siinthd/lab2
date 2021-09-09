@@ -7,5 +7,5 @@ mkdir -p $BIN_DIR
 cd $BIN_DIR
 cmake $ROOT_DIR
 cmake --build .
-ctest . -V
+ctest .
 cpack .
