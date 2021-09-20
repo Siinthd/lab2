@@ -1,5 +1,5 @@
 ```
-wget -O ip_filter-Linux.deb https://github.com/Siinthd/TravisTest/releases/latest/download/ip_filter-Linux.deb
+wget -O ip_filter-Linux.deb https://github.com/Siinthd/lab2/releases/latest/download/ip_filter-Linux.deb
 sudo dpkg -i ip_filter-Linux.deb
 ```
 Then run  app:
