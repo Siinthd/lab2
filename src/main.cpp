@@ -34,8 +34,8 @@ int main(/*int argc, char const *argv[]*/)
         // 1.29.168.152
         // 1.1.234.8
 
-        // TODO filter by first byte and output
-        // ip = filter(1)
+
+
 		std::cout << filter(ip_pool, 1);
         // 1.231.69.33
         // 1.87.203.225
@@ -43,17 +43,16 @@ int main(/*int argc, char const *argv[]*/)
         // 1.29.168.152
         // 1.1.234.8
 
-        // TODO filter by first and second bytes and output
-        // ip = filter(46, 70)
+
+
 		std::cout << filter(ip_pool, 46,70);
         // 46.70.225.39
         // 46.70.147.26
         // 46.70.113.73
         // 46.70.29.76
 
-        // TODO filter by any byte and output
-		std::cout << filter_any(ip_pool,46);
 
+		std::cout << filter_any(ip_pool,46);
         // 186.204.34.46
         // 186.46.222.194
         // 185.46.87.231
@@ -88,6 +87,12 @@ int main(/*int argc, char const *argv[]*/)
         // 46.49.43.85
         // 39.46.86.85
         // 5.189.203.46
+
+        std::cout << filter_strong(ip_pool,185,46,86);
+        // 185.46.86.132
+        // 185.46.86.131
+        // 185.46.86.131
+        // 185.46.86.22
     }
     catch(const std::exception &e)
     {

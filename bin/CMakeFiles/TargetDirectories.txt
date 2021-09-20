@@ -1,0 +1,11 @@
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/install/local.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/edit_cache.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/test.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/package_source.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/install.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/list_install_components.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/rebuild_cache.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/package.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/install/strip.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/test_filter.dir
+/home/siinthddev/CppProjects/LabsOtys/lab2/bin/CMakeFiles/ip_filter.dir

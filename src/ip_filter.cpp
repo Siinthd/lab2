@@ -81,4 +81,3 @@ pool filter_any(const pool& ip_pool, int value)
 	}
 	return out;
 }
-
